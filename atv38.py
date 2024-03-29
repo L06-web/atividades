@@ -1,10 +1,10 @@
-hora_inicial = int(input("Digite a hora inicial: "))
-minuto_inicial = int(input("Digite o minuto inicial: "))
-segundo_inicial = int(input("Digite o segundo inicial: "))
-duracao_segundos = int(input("Digite a duração em segundos: "))
-total_segundos_inicial = hora_inicial * 3600 + minuto_inicial * 60 + segundo_inicial
-total_segundos_final = total_segundos_inicial + duracao_segundos
-hora_final = total_segundos_final // 3600 % 24
-minuto_final = (total_segundos_final % 3600) // 60
-segundo_final = total_segundos_final % 60
-print(f"O término da experiência será às {hora_final} horas, {minuto_final} minutos e {segundo_final} segundos.")
+horainicial = int(input("Digite a hora inicial: "))
+minutoinicial = int(input("Digite o minuto inicial: "))
+segundoinicial = int(input("Digite o segundo inicial: "))
+duracaosegundos = int(input("Digite a duração em segundos: "))
+totalsegundosinicial = horainicial * 3600 + minutoinicial * 60 + segundoinicial
+totalsegundosfinal = totalsegundos_inicial + duracaosegundos
+horafinal = totalsegundosfinal // 3600 % 24
+minutofinal = (totalsegundosfinal % 3600) // 60
+segundofinal = totalsegundosfinal % 60
+print(f"O término da experiência será às {horafinal} horas, {minutofinal} minutos e {segundofinal} segundos.")
